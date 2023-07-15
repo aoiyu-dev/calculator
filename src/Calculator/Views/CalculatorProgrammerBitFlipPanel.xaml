@@ -191,25 +191,25 @@
                         <AdaptiveTrigger MinWindowHeight="0" MinWindowWidth="0"/>
                     </VisualState.StateTriggers>
                     <VisualState.Setters>
+                        <Setter Target="Label64.FontSize" Value="10"/>
                         <Setter Target="Label60.FontSize" Value="10"/>
                         <Setter Target="Label56.FontSize" Value="10"/>
                         <Setter Target="Label52.FontSize" Value="10"/>
-                        <Setter Target="Label48.FontSize" Value="10"/>
 
+                        <Setter Target="Label48.FontSize" Value="10"/>
                         <Setter Target="Label44.FontSize" Value="10"/>
                         <Setter Target="Label40.FontSize" Value="10"/>
                         <Setter Target="Label36.FontSize" Value="10"/>
-                        <Setter Target="Label32.FontSize" Value="10"/>
 
+                        <Setter Target="Label32.FontSize" Value="10"/>
                         <Setter Target="Label28.FontSize" Value="10"/>
                         <Setter Target="Label24.FontSize" Value="10"/>
                         <Setter Target="Label20.FontSize" Value="10"/>
-                        <Setter Target="Label16.FontSize" Value="10"/>
 
+                        <Setter Target="Label16.FontSize" Value="10"/>
                         <Setter Target="Label12.FontSize" Value="10"/>
                         <Setter Target="Label8.FontSize" Value="10"/>
                         <Setter Target="Label4.FontSize" Value="10"/>
-                        <Setter Target="Label0.FontSize" Value="10"/>
                     </VisualState.Setters>
                 </VisualState>
             </VisualStateGroup>
@@ -223,86 +223,86 @@
                    Fill="{ThemeResource DividerStrokeColorDefaultBrush}"
                    RadiusX="0.5"
                    RadiusY="0.5"/>
+        <TextBlock x:Name="Label64"
+                   Grid.Row="2"
+                   Grid.Column="1"
+                   Style="{StaticResource TextBlockStyle}"
+                   Text="64"/>
         <TextBlock x:Name="Label60"
                    Grid.Row="2"
-                   Grid.Column="4"
+                   Grid.Column="6"
                    Style="{StaticResource TextBlockStyle}"
                    Text="60"/>
         <TextBlock x:Name="Label56"
                    Grid.Row="2"
-                   Grid.Column="9"
+                   Grid.Column="11"
                    Style="{StaticResource TextBlockStyle}"
                    Text="56"/>
         <TextBlock x:Name="Label52"
                    Grid.Row="2"
-                   Grid.Column="14"
+                   Grid.Column="16"
                    Style="{StaticResource TextBlockStyle}"
                    Text="52"/>
         <TextBlock x:Name="Label48"
-                   Grid.Row="2"
-                   Grid.Column="19"
+                   Grid.Row="4"
+                   Grid.Column="1"
                    Style="{StaticResource TextBlockStyle}"
                    Text="48"/>
         <TextBlock x:Name="Label44"
                    Grid.Row="4"
-                   Grid.Column="4"
+                   Grid.Column="6"
                    Style="{StaticResource TextBlockStyle}"
                    Text="44"/>
         <TextBlock x:Name="Label40"
                    Grid.Row="4"
-                   Grid.Column="9"
+                   Grid.Column="11"
                    Style="{StaticResource TextBlockStyle}"
                    Text="40"/>
         <TextBlock x:Name="Label36"
                    Grid.Row="4"
-                   Grid.Column="14"
+                   Grid.Column="16"
                    Style="{StaticResource TextBlockStyle}"
                    Text="36"/>
         <TextBlock x:Name="Label32"
-                   Grid.Row="4"
-                   Grid.Column="19"
+                   Grid.Row="6"
+                   Grid.Column="1"
                    Style="{StaticResource TextBlockStyle}"
                    Text="32"/>
         <TextBlock x:Name="Label28"
                    Grid.Row="6"
-                   Grid.Column="4"
+                   Grid.Column="6"
                    Style="{StaticResource TextBlockStyle}"
                    Text="28"/>
         <TextBlock x:Name="Label24"
                    Grid.Row="6"
-                   Grid.Column="9"
+                   Grid.Column="11"
                    Style="{StaticResource TextBlockStyle}"
                    Text="24"/>
         <TextBlock x:Name="Label20"
                    Grid.Row="6"
-                   Grid.Column="14"
+                   Grid.Column="16"
                    Style="{StaticResource TextBlockStyle}"
                    Text="20"/>
         <TextBlock x:Name="Label16"
-                   Grid.Row="6"
-                   Grid.Column="19"
+                   Grid.Row="8"
+                   Grid.Column="1"
                    Style="{StaticResource TextBlockStyle}"
                    Text="16"/>
         <TextBlock x:Name="Label12"
                    Grid.Row="8"
-                   Grid.Column="4"
+                   Grid.Column="6"
                    Style="{StaticResource TextBlockStyle}"
                    Text="12"/>
         <TextBlock x:Name="Label8"
                    Grid.Row="8"
-                   Grid.Column="9"
+                   Grid.Column="11"
                    Style="{StaticResource TextBlockStyle}"
                    Text="8"/>
         <TextBlock x:Name="Label4"
                    Grid.Row="8"
-                   Grid.Column="14"
+                   Grid.Column="16"
                    Style="{StaticResource TextBlockStyle}"
                    Text="4"/>
-        <TextBlock x:Name="Label0"
-                   Grid.Row="8"
-                   Grid.Column="19"
-                   Style="{StaticResource TextBlockStyle}"
-                   Text="0"/>
 
         <controls:FlipButtons x:Name="Bit63"
                               Grid.Row="1"
